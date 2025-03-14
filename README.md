@@ -4,6 +4,19 @@
 ## Gambaran Umum
 Proyek ini adalah proyek analisis dan visualisasi data yang fokus pada data e-commerce publik. Proyek ini mencakup kode untuk pengolahan data, analisis eksplorasi data (EDA), dan dasbor interaktif Streamlit untuk eksplorasi data. Proyek ini bertujuan untuk menganalisis data pada Dataset E-Commerce Publik.
 
+## Setup Environment-Shell/Terminal
+```
+mkdir proyek_analisis_data
+cd proyek_analisis_data
+pipenv install
+pipenv shell
+pip install -r requirements.txt
+```
+## Run Streamlit
+```
+streamlit run Dashboard.py
+```
+
 ## Struktur Proyek
 - dashboard/: Terdapat dashboard.py untuk membuat dashboards dari analisa data.
 - data/: Berisi dataset berformat CSV yang digunakan dalam proyek.
